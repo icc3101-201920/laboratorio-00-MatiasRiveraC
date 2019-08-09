@@ -20,7 +20,7 @@ namespace Card
         public Hand Hand { get => hand; set => hand = value; }
         public SpecialCard Captain { get => captain; set => captain = value; }
 
-        public Player(int lifePoints, int attackPoints, Deck deck, SpecialCard captain)
+        public Player(int lifePoints, int attackPoints, Deck deck, Hand hand, SpecialCard captain)
         {
             this.lifePoints = lifePoints;
             this.attackPoints = attackPoints;
